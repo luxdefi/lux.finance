@@ -13,10 +13,16 @@
     margin: 0 auto;
   }
 
-  img.center {
+  .image.center {
+    background-image:    url(lux.png);
+    background-color:    black;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
     display: block;
     text-align: center;
     width: 100%;
+    height: 80vh;
     margin: 0 auto;
     padding: 0;
   }
@@ -33,20 +39,28 @@
     font-weight: 300;
   }
 
+  footer {
+    bottom: 20px;
+    width: 100%;
+    position: absolute;
+  }
+
   </style>
 </head>
 
 <body>
   <a href="mailto:hi@lux.financial?subject=Hi Lux">
-    <img class="center" src="lux.png">
+    <div class="image center"></div>
   </a>
 
-  <h1 class="center text">
-  The future is decentralized.
-  </h1>
+  <footer>
+    <h1 class="center text">
+    The future is decentralized.
+    </h1>
 
-  <h4 class="center text">
-  © 2021 Lux Financial. All Rights Reserved.
-  </h4>
+    <h4 class="center text">
+    © 2021 Lux Financial. All Rights Reserved.
+    </h4>
+  </footer>
 </body>
 </html>
